@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="305dp"
+    android:layout_height="310dp"
+    android:gravity="top"
+    android:background="@drawable/marco_dialog"
+    android:padding="30dp">
+
+
+
+    <!--<LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_dark"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:gravity="left"
+        android:text="Fecha de Nacimiento"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/field_bottom_border"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edBirthDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:layout_gravity="left"
+            android:hint="Seleccione"
+            android:textColorHint="@color/primaryColorlight"
+            android:inputType="date"
+            android:maxLength="10"
+            android:textColor="@color/primaryColorlight"
+            android:textSize="19sp"
+            android:backgroundTint="@color/background_field"
+            android:clickable="true"
+            android:focusable="false"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFF"
+                android:padding="0dp"
+                tools:src="@drawable/ic_date"></ImageButton>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:gravity="left"
+        android:layout_height="wrap_content"
+        android:text="Género"
+        android:textSize="20sp"
+        android:textColor="@color/primaryTextColor"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/field_bottom_border"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp">
+
+        <Spinner
+            android:id="@+id/spGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:padding="0dp"
+                tools:src="@drawable/ic_gender"></ImageButton>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button_2"
+            android:text="GUARDAR"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

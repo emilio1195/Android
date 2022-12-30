@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#FAF7F7">
+
+    <TextView
+        android:id="@+id/txtTitleMEnu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mover Sticker"
+        android:gravity="center"
+        android:textColor="@color/primaryTextColor"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione la categoria que desea mover el sticker."
+        android:textColor="@color/primaryTextColor"
+        android:textStyle="italic"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dp"/>
+
+    <Spinner
+        android:id="@+id/spCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese el codigo de Autorización"
+        android:textColor="@color/primaryTextColor"
+        android:textStyle="italic"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/edtCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Código"
+        android:textColor="@color/primaryTextColor"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/btnChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/marco_rectangular"
+        android:text="CAMBIAR"
+        android:textColor="@color/primaryTextColor"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="5dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+</LinearLayout>

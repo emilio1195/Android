@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_fondorv"
+    tools:context=".View.ViewStickerStatics.View_StickersPack">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adViewBannerSecond"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTituloPack"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CATEGORIA -> "
+            android:textColor="@color/acent_TextColor"
+            android:fontFamily="@font/sports"
+            android:textSize="22sp"
+            android:layout_marginBottom="10dp"/>
+        <RelativeLayout
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sizeIconsAdsh"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sports"
+                    android:gravity="center_vertical"
+                    android:text="Saldo: "
+                    android:textColor="@color/acent_TextColor"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtMonedas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/homelike"
+                    android:gravity="center_vertical"
+                    android:text="0"
+                    android:textColor="#efb810"
+                    android:textSize="@dimen/sizeTextPrice" />
+
+                <ImageView
+                    android:layout_width="@dimen/sizeTextPrice"
+                    android:layout_height="@dimen/sizeTextPrice"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/coinyuan" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="@dimen/sizeIconsAdsw"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_toStartOf="@+id/flbtnMonedas"
+                android:layout_centerVertical="true">
+
+                <ProgressBar
+                    android:id="@+id/pbButtonIntertisialAd"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:visibility="gone"/>
+
+                <Button
+                    android:id="@+id/btnIntesticial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/intersticial_coinyuan"
+                    android:textColor="@color/acent_TextColor"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/flbtnMonedas"
+                android:layout_width="@dimen/sizeIconsAdsw"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true">
+                <ProgressBar
+                    android:id="@+id/pbButtonRewardedAd"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"/>
+                <Button
+                    android:id="@+id/btnMonedas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rewarded_icon"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:visibility="invisible"/>
+            </FrameLayout>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_StickersPreview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <include layout="@layout/placeholder_sticker_preview_load"/>
+                    <include layout="@layout/placeholder_sticker_preview_load"/>
+                    <include layout="@layout/placeholder_sticker_preview_load"/>
+                </LinearLayout>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <!-- TODO: Update blank fragment layout -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:theme="@style/ThemeFading"
+                android:fadingEdgeLength="8dp"
+                android:requiresFadingEdge="vertical"
+                android:id="@+id/rvViewStickers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/marco_rectangular"/>
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewBannerSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_banner_test"></com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/drawable/button_google.xml" value="0.1546875" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/drawable/custom_button_2.xml" value="0.1546875" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/drawable/field_bottom_border.xml" value="0.1546875" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/drawable/field_item_spinner.xml" value="0.1546875" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/drawable/marco_dialog.xml" value="0.1546875" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/drawable/marco_rectangular.xml" value="0.1546875" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/activity_main_screen_stickers.xml" value="0.25" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/activity_view__stickers_pack.xml" value="0.33" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/activity_view__upload__stickers.xml" value="0.153125" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/cardview_add_category.xml" value="0.25" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/cardview_add_varios_stickers.xml" value="0.25" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/cardview_additional_info_user.xml" value="0.33" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/cardview_pack_category.xml" value="0.5" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/cardview_politica.xml" value="0.2" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/cardview_preview_image.xml" value="0.153125" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/cardview_sticker.xml" value="0.153125" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/cardview_sticker_buy.xml" value="0.153125" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/fragment_mis_stickers_.xml" value="0.153125" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/fragment_pack_list_statics_.xml" value="0.25" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/fragment_stickers_list_cartoon_.xml" value="0.153125" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/placeholder_pack_preview.xml" value="0.153125" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/placeholder_sticker_preview_load.xml" value="0.153125" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/spinner_item_own.xml" value="0.5" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/toast_custom_error.xml" value="0.153125" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/layout/toolbar_stickers.xml" value="0.18" />
+        <entry key="..\:/Documents/AndroidStudioProjects/StickersWapp/app/src/main/res/menu/menu.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

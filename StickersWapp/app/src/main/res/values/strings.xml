@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Stickers Wapp EC</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="MensajeBonificacion">Quieres duplicar tus Yuans?? haz clic en el boton x2</string>
+
+    <string name="admob_ad_id_update">ca-app-pub-1607581231141881~2341519939</string>
+    <string name="admob_banner_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_banner_Categorias">ca-app-pub-1607581231141881/3031468810</string>
+    <string name="admob_banner_Stickers">ca-app-pub-1607581231141881/4756787487</string>
+
+    <string name="admob_ad_Rewarded_test">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="admob_ad_Rewarded_Stickers1">ca-app-pub-1607581231141881/4357649467</string>
+    <string name="admob_ad_Rewarded_Stickers2">ca-app-pub-1607581231141881/8013166900</string>
+
+    <string name="admob_ad_Intersticial_Test">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_ad_Intersticial_Stickers">ca-app-pub-1607581231141881/9334945294</string>
+
+    <string name="facebook_application_id_Auth">2780493528864535</string>
+    <string name="fb_login_protocol_scheme">fb2780493528864535</string>
+
+    <string name="title_validation_error">Error ADD</string>
+    <string name="error_adding_sticker_pack">Error ADD Pack ...</string>
+    <string name="title_activity_view__upload__stickers">View_Upload_Stickers</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+
+    <string name="rate_app_title">Rate App</string>
+    <string name="rate_app_message">Si estas disfrutando de nuestra aplicación, tómese un momento para calificarla en PlayStore. ¡Gracias por su apoyo!</string>
+    <string name="rate_btn_pos">Calificar Ahora</string>
+    <string name="rate_btn_neg">Recordarmelo Luego</string>
+    <string name="rate_btn_nut">No, Gracias</string>
+
+    <string name="Empty_Field">Campos vacíos</string>
+    <string name="Obligatory_Field">Campos obligatorio</string>
+
+</resources>

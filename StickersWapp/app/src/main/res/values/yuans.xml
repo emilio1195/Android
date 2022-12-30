@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="Reward_Donate1">1200</integer>
+    <integer name="Reward_Donate3">4000</integer>
+    <integer name="Reward_Donate20">30000</integer>
+
+    <integer name="Reward_Ad_Intersticial">90</integer>
+    <integer name="Reward_No_Ad_Intersticial">15</integer>
+
+    <integer name="Reward_Ad_Adwarded">150</integer>
+
+    <integer name="Reward_Login">400</integer>
+
+</resources>

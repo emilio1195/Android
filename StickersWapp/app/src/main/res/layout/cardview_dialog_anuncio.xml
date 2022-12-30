@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="305dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000"
+    app:cardCornerRadius="10dp"
+    android:alpha="0.8"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/romano"
+            android:gravity="center_horizontal"
+            android:text="GRACIAS POR VER EL ANUNCIO"
+            android:textColor="@color/acent_Color"
+            android:textSize="30sp"
+            android:layout_marginBottom="15dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/primary_italics1"
+                android:text="Ganaste: "
+                android:textColor="@color/acent_Color"
+                android:textSize="23sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:id="@+id/txtreawrded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20sp"
+                android:textColor="@color/colorYuan"
+                android:fontFamily="@font/homelike"/>
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:src="@drawable/coinyuan"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/primary_italics1"
+            android:text="@string/MensajeBonificacion"
+            android:textColor="@color/acent_Color"
+            android:textSize="23sp"
+            android:justificationMode="inter_word"/>
+
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <ProgressBar
+                android:id="@+id/pbDoubleYuans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/marco_rectangular"
+                android:orientation="horizontal"
+                android:padding="3dp">
+                <LinearLayout
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:id="@+id/lyX2Yuans"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="8dp"
+                    android:background="@drawable/color_fondorv"
+                    android:gravity="center_horizontal|center_vertical">
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="X2"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorYuan"
+                        android:fontFamily="@font/homelike"/>
+                    <ImageView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/coinyuan"/>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/btnCerrarDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CERRAR"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/acent_TextColor"
+            android:background="@drawable/color_fondorv"
+            android:textSize="16sp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

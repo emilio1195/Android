@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Donar $"
+        android:id="@+id/mDonar"
+        android:icon="@drawable/ic_donate_24"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+
+    <item android:title="Contact "
+        android:id="@+id/mAbout"
+        android:orderInCategory="101"
+        android:icon="@drawable/ic_info"
+        app:showAsAction="always"/>
+
+    <item android:title="Rate $"
+        android:id="@+id/mRating"
+        android:orderInCategory="108"
+        android:icon="@drawable/ic_star_half_24"
+        app:showAsAction="always"/>
+
+
+    <item android:title="Guardar Monedas y Stickers en la Nube"
+        android:id="@+id/mSaveMoneyStickers"
+        android:orderInCategory="102"/>
+
+
+    <item android:title="Cómo Eliminar Paquetes de Stickers"
+        android:id="@+id/mManualpdf"
+        android:orderInCategory="103"/>
+
+    <item android:title="Ganar Monedas (Compartir App)"
+        android:id="@+id/mCompartir"
+        android:orderInCategory="104"/>
+
+    <item android:title="Reclamar Yuans (Donador)"
+        android:id="@+id/mYuans"
+        android:orderInCategory="105"/>
+
+    <item android:title="Soporte de Stickers"
+        android:id="@+id/mSupportApp"
+        android:orderInCategory="106"/>
+
+
+    <item android:title="Cerrar Sesión"
+        android:id="@+id/mSalir"
+        android:orderInCategory="107"/>
+</menu>

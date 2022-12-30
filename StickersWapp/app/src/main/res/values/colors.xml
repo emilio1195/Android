@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#212121</color>
+    <color name="primaryColorlight">#706F6F</color>
+    <color name="primaryDarkColor">#020305</color>
+    <color name="acent_Color">#0008E6</color>
+    <color name="acent_DarkColor">#0006BF</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="acent_TextColor">#ffffff</color>
+    <color name="divider_light">#BDBDBD</color>
+    <color name="divider_dark">#676666</color>
+    <color name="background_field">#F3F1F1</color>
+    <color name="Cancel">#D60707</color>
+    <color name="DeleteUri">#D54E05</color>
+    <color name="aDDwAPP">#498E4C</color>
+    <color name="colorYuan">#efb810</color>
+    <color name="violeta">#4c2882</color>
+    <color name="purpura">#7d2181</color>
+    <color name="anil">#094293</color>
+    <color name="cobalto">#333c87</color>
+    <color name="vino">#A54527</color>
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="blanco_alpha">#D2FAF6F6</color>
+</resources>

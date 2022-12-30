@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondorv"
+    android:id="@+id/contenedorMain"
+    tools:context=".MainActivities.MainScreenStickers"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="vertical"
+        android:fadingEdgeLength="10dp"
+        android:theme="@style/ThemeFading">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BIENVENIDO A LA PLATAFORMA DE STICKERS"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inicia sesión con las siguientes opciones, para tener una mejor experiencia."
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:justificationMode="inter_word"/>
+
+            <Button
+                android:layout_marginTop="40dp"
+                android:id="@+id/btnAutGoogle"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_google"
+                android:text="Entrar con GOOGLE"
+                android:textSize="15sp"
+                android:drawableLeft="@drawable/google2"
+                android:paddingLeft="13dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/primaryTextColor"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"/>
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/btnAutFB"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_facebook"
+                android:text="Entrar con FACEBOOK"
+                android:drawableLeft="@drawable/facebook2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="15sp"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"/>
+
+<!--
+            <Button
+                android:id="@+id/btnIngresar"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_google"
+                android:text="Entrar como Invitado"
+                android:textColor="@color/acent_Color"
+                android:textStyle="italic|bold"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"/>
+-->
+
+            <ProgressBar
+                android:layout_marginTop="10dp"
+                android:id="@+id/pbIniciando"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:visibility="invisible"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

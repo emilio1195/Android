@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_cardview_Sticker_preview">110dp</dimen>
+    <dimen name="dimen_cardview_Category_preview">170dp</dimen>
+    <dimen name="padding">15dp</dimen>
+    <dimen name="padding2">10dp</dimen>
+    <dimen name="sizeTextPrice">18sp</dimen>
+    <dimen name="sizeIconsAdsw">52dp</dimen>
+    <dimen name="sizeIconsAdsh">33dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

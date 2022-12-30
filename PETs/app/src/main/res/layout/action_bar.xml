@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/primary"
+    android:elevation="4dp"
+    android:id="@+id/userActionBar"
+    android:minHeight="?attr/actionBarSize"
+    app:layout_scrollFlags="scroll|enterAlways"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/huellas">
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Pet's"
+            android:fontFamily="@font/homelike"
+            android:textSize="30dp"
+            android:textColor="#FFFF"
+            android:elevation="4dp">
+
+        </TextView>
+
+    </FrameLayout>
+
+</androidx.appcompat.widget.Toolbar>

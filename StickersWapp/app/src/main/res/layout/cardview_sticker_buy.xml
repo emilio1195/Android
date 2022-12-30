@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="230dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_gravity="center_horizontal|center_vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="190dp"
+            android:layout_height="190dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/ic_image_preview"
+                android:id="@+id/imgSticker"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="73dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="73dp"
+                android:background="#000000"
+                android:alpha="0.5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="73dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="73dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtPrecio"
+                    android:text="1000"
+                    android:textColor="@color/colorYuan"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/homelike"/>
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/coinyuan" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal|center_vertical">
+            <TextView
+                android:id="@+id/txtdescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="14sp"
+                android:textColor="@color/primaryTextColor"
+                android:text="Puedes irte con quien quieras, Perro!!  - Auron Play (Youtube)"/>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnComprar"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/custom_button_2"
+                    android:text="COMPRAR"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"/>
+
+                <Button
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_button"
+                    android:textColor="@color/acent_TextColor"
+                    android:textStyle="bold"
+                    android:id="@+id/btnAddWapp"
+                    android:text="ADD WHATS APP"
+                    android:textSize="18sp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:visibility="gone"/>
+
+                <ProgressBar
+                    android:id="@+id/progressBarAdd"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:visibility="gone"/>
+            </FrameLayout>
+
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_2"
+                android:textColor="@color/Cancel"
+                android:textStyle="bold"
+                android:id="@+id/btnCancelar"
+                android:text="CANCELAR"
+                android:textSize="22sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:id="@+id/txtIdSticker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Id: "
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColor="@color/primaryTextColor"/>
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>
+

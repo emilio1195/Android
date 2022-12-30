@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F8F6F6"
+    android:padding="10dp"
+    android:layout_margin="5dp">
+    <Button
+        android:id="@+id/btnCloseAux"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/ic_close_24"
+        android:layout_gravity="right"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/imgTrayCategory"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/marco_rectangular"
+                android:padding="4dp"
+                android:src="@drawable/ic_add_photo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtsizeTrayIcon"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:hint="Size Img"
+                    android:textSize="14sp"
+                    android:textColor="@color/primaryTextColor"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/txtUrlCategoryIcon"
+                    android:gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:hint="Url descarga sticker"
+                    android:textSize="14sp"
+                    android:textColor="@color/primaryTextColor"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtCategoriaNew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre Categoria"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="16dp"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:padding="5dp"
+            android:ems="10"
+            android:focusable="true"
+            android:imeOptions="actionDone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="2dp"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uploaded Storage"
+                android:textSize="14sp"
+                android:textColor="@color/primaryTextColor"
+                android:textStyle="italic" />
+            <ImageView
+                android:id="@+id/imgStorageTray"
+                android:layout_marginLeft="5dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_cloud_off_30"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uploaded Cloud"
+                android:textSize="14sp"
+                android:textColor="@color/primaryTextColor"
+                android:textStyle="italic" />
+            <ImageView
+                android:id="@+id/imgCloudTray"
+                android:layout_marginLeft="5dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_cloud_off_30"
+                android:layout_marginRight="10dp">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/pbUploadingStorage"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:max="100"
+            android:progress="2"/>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/btnUploadCLoud"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:gravity="center"
+                android:background="@drawable/marco_rectangular"
+                android:text="Upload DataBAse"
+                android:textSize="16sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:enabled="false"/>
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/btnClose"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:gravity="center"
+                android:background="@drawable/marco_rectangular"
+                android:text="CLOSE"
+                android:textSize="16sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:visibility="gone"/>
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:id="@+id/pbLoadingStorage2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:visibility="gone" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:id="@+id/pbLoadingCloud"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:visibility="gone" />
+
+</FrameLayout>

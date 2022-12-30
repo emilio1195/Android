@@ -1,0 +1,27 @@
+La presente Política de Privacidad establece los términos en que ANKAEDY usa y protege la información que es proporcionada por sus usuarios al momento de utilizar su aplicación Stickers Wapp Ec. Esta compañía está comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este documento.
+*
+1. Información Adquirida
+*
+Nuestra app podrá recoger información personal, por ejemplo: Nombre y Apellido, información de contacto como su dirección de correo electrónico, información demográfica y de geolocalización. Así mismo cuando sea necesario podrá ser requerida información específica que es necesaria para su registro.
+*
+2. Uso de la información recogida
+*
+Nuestra app emplea la información con el fin de proporcionar el mejor servicio posible, particularmente para mantener un registro de usuarios, brindar el servicio de respaldo de sus stickers & monedas obtenidas, además para llevar una estadística del uso frecuente de nuestra app y poder clasificarlos mediante regiones, edad, género, con el fin de entregar el contenido y publicidad adecuada, así mejorar nuestros productos y servicios.  Es posible que sean enviados correos electrónicos o push notifications periódicamente a través de nuestro sitio con ofertas especiales, nuevos productos y otra información publicitaria que consideremos relevante para usted o que pueda brindarle algún beneficio, estos correos electrónicos serán enviados a la dirección que usted proporcione y podrán ser cancelados en cualquier momento.
+ANKAEDY está altamente comprometido para cumplir con el compromiso de mantener su información segura. Usamos los servicios de Google más avanzados y seguros de respaldo y almacenamiento de datos, por ello, actualizamos sus versiones de API y reglas de seguridad, para asegurarnos que no exista ningún acceso no autorizado.
+*
+3. Permisos
+*
+Los permisos se deberán a la escritura y lectura de datos, que son importantes para la mayoría de funciones que dispone la app, además del permiso de GPS, para obtener su geolocalización más precisa, posiblemente se solicite permiso de red para obtener una referencia de geolocalización mediante su IP, así mismo para la consulta de datos online que requieren este permiso el cual suele otorgarse automáticamente.
+Nuestra app requiere de su geolocalización para nuestra estadística de usuarios por regiones y también poder clasificar de mejor manera publicidad, por el motivo que será más eficiente para un anunciante poder llegar a los consumidores correctos de su región geográfica que de manera global, así mismo sus otros datos ayudan en toda la logística de la aplicación para mantenerse en funcionamiento.
+Usted puede aceptar o negar el uso de sus datos, sin embargo la mayoría de  sitios web o aplicaciones solicitan esta información, para ofrecer un mejor servicio.
+*
+4. Enlaces a Terceros (Anuncios)
+*
+Esta app contiene publicidad que disponen de enlaces a otros sitios que pudieran ser de su interés. Una vez que usted de clic en estos enlaces y abandone nuestra app, ya no tenemos control sobre al sitio al que es redirigido y por lo tanto no somos responsables de los términos o privacidad, ni de la protección de sus datos en otros sitios de terceros. Dichos sitios están sujetos a sus propias políticas de privacidad, por lo cual, es recomendable que las consulte para confirmar que usted está de acuerdo con estas.
+*
+5. Control de su información personal
+*
+En cualquier momento usted puede restringir la recopilación o el uso de la información personal que es proporcionada. Puede solicitar borrar sus datos, con el fin de no volver a usar la aplicación, por la razón que, para acceder al contenido, la aplicación siempre requerirá que ofrezca sus datos, sin aceptar este requisito usted no podrá ingresar. Para algún requerimiento contactanos a nuestro correo ankaedy.ec@gmail.com.
+Esta compañía no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento, salvo que sea requerido por un juez con un orden judicial. Su información se mantendrá en privado y solo será utilizada en estadísticas y como evidencia cuando solicite un anunciante para aprobar nuestra app, con la finalidad de poder manejar sus anuncios y que ellos tengan la seguridad que llegaremos al consumidor correcto.
+*
+ANKAEDY Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.

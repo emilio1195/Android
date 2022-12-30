@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.uda.pets">
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Messages"
+            android:exported="false" />
+        <activity
+            android:name=".ChatWindow"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileView"
+            android:exported="false" />
+        <activity android:name=".Contacto" />
+        <activity android:name=".AcercaDe" />
+        <activity
+            android:name=".view.favorites.FavoritosPets"
+            android:parentActivityName=".WindowPets">
+            <meta-data
+                android:name="android.support.PARENT_ACTION"
+                android:value=".WindowPets" />
+        </activity>
+        <activity android:name=".WindowPets" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

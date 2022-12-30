@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/color_fondorv"
+    tools:context=".StickersListCartoon_Fragment"
+    android:padding="10dp">
+
+<!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textColor="@color/acent_TextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estamos Trabajando en esta Ventana de Stickers Animados."
+        android:textSize="25sp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:textStyle="italic"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center"
+        android:src="@drawable/goofy_smile" />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PETs</string>
+    <string name="TittleMain">pët\'s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile_user">Profile_User</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Key_Edit_FProfile">Key_Edit_Pview</string>
+    <string name="Key_View_FProfile">Key_View_Pview</string>
+    <string name="Key_Data_FProfile">Key_Data_FProfile</string>
+    <string name="Enter_Description">Add a short description</string>
+    Ingrese su datos de contacto, para pedir informacion, dar una sugerencia o realizar un reclamo.
+    <string name="contact">For more information, suggestions or support, fill form please.</string>
+</resources>

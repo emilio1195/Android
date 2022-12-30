@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.ViewAddStickerDB.View_Upload_Stickers"
+    android:background="@drawable/color_fondorv">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="AÑADIR STICKERs"
+        android:fontFamily="@font/sports"
+        android:textColor="@color/acent_TextColor"
+        android:textSize="25sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp">
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            app:layout_behavior="@+id/titulo"
+            android:theme="@style/ThemeFading"
+            android:id="@+id/rvListAdds"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/marco_rectangular"
+            android:fadingEdgeLength="8dp"
+            android:padding="14dp"
+            android:requiresFadingEdge="vertical" />
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:id="@+id/fbMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@android:drawable/ic_input_add"
+            app:fab_labelStyle="@style/etiqueta"
+            app:fab_addButtonColorNormal="@color/acent_Color"
+            app:fab_addButtonColorPressed="@color/acent_DarkColor">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fbAddStickers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_size="normal"
+                app:fab_icon="@drawable/ic_add_photo"
+                app:fab_colorNormal="@color/colorYuan"
+                app:fab_colorPressed="@color/divider_light"
+                app:fab_title="Add Sticker"/>
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fbAddCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_size="normal"
+                app:fab_icon="@drawable/ic_add_category"
+                app:fab_colorNormal="@color/violeta"
+                app:fab_colorPressed="@color/divider_light"
+                app:fab_title="Add Category"/>
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fbEditUriIndex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_size="mini"
+                app:fab_icon="@drawable/ic_edit_24"
+                app:fab_colorNormal="@color/anil"
+                app:fab_colorPressed="@color/divider_light"
+                app:fab_title="Editar Index Uri"/>
+
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fbDeleteTempUri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_size="mini"
+                app:fab_icon="@drawable/ic_delete_forever_24"
+                app:fab_colorNormal="@color/DeleteUri"
+                app:fab_colorPressed="@color/divider_light"
+                app:fab_title="Delete Uris"/>
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fbClearScreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_size="mini"
+                app:fab_icon="@drawable/ic_mobile"
+                app:fab_colorNormal="@color/Cancel"
+                app:fab_colorPressed="@color/divider_light"
+                app:fab_title="Clear Screen"/>
+
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FAFAF0"
+    tools:context=".MainActivities.ManualEliminarSt">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="ELIMINAR PAQUETES DE STICKERS DESDE WHATS APP"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="¿Por qué eliminar mi paquete de stickers?"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:justificationMode="inter_word"
+                android:text=" Whats app solo permite tener 10 paquetes de stickers, lo cual deberás eliminar el que usas
+        con menos frecuencia, así añadir el que deseas actualmente.
+        \nUna Ventaja de nuestra App es que si borras un paquete de stickers, y después de un tiempo
+        quieres añadir stickers del paquete borrado, aparecerá tu paquete con todos los stickers que añadiste antes de borrarlo de Whats app,
+        así que no te preocupes guardandolos en favoritos, haz la prueba 😉"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="¿Cuándo debo eliminar mi paquete de stickers? "
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:justificationMode="inter_word"
+                android:text="Cuando tengas demasiados Paquetes de stickers y
+        ya no los uses con frecuencia, es recomendable que los borres,
+        para que se te haga más fácil la búsqueda de los paquetes que usas
+        con mayor frecuencia o cuando te aparezca un aviso que no se puede añadir ese
+        paquete a Whats app por exceso o porque ya llegaste al limite de 10 packs.
+        \n\nWhats App nos da una opción de guardar stickers de cualquier paquete en nuestra sección de favoritos, así podrás mantener los que mas te gusten o los que uses con mayor frecuencia."
+                android:textColor="@color/primaryTextColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:justificationMode="inter_word"
+                android:text="Para ver el Manual de como Eliminar un Paquete de Whats App, como Respaldar un sticker antes de borrar un paquete, presiona en el siguiente boton.
+        \n\nRecuerda nuestra app mantiene guardado tus stickers cuando borres un paquete de Whats app. Y aparecen
+        de nuevo cuando añades nuevamente esa Categoria de stickers"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnPdf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/marco_rectangular"
+                android:drawableTop="@drawable/ic_pdf_128px"
+                android:padding="10dp"
+                android:text="Ver Manual" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

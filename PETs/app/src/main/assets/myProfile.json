@@ -1,0 +1,14 @@
+{
+  "name": "Nory",
+  "breed": "Scottish Fold",
+  "profilePic": "nory_profile",
+  "description": "",
+  "followers":  "87",
+  "following": "34",
+  "postedPics": [
+    {
+      "pic": "scottish_fold",
+      "likes": "2315"
+    }
+  ]
+}

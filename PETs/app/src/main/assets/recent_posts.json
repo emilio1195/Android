@@ -1,0 +1,92 @@
+{
+  "posts": [
+    {
+      "name": "Lita",
+      "breed": "Chiguagua",
+      "profilePic": "default_profile",
+      "recentPostPic": "lita",
+      "like": false,
+      "likes": "201"
+    },
+    {
+      "name": "Valentín",
+      "breed": "Chiguagua",
+      "profilePic": "default_profile",
+      "recentPostPic": "vale",
+      "like": false,
+      "likes": "501"
+    },
+    {
+      "name": "Ojis",
+      "breed": "Balinese",
+      "profilePic": "default_profile",
+      "recentPostPic": "ojis",
+      "like": false,
+      "likes": "744"
+    },
+    {
+      "name": "Kata",
+      "breed": "Angora Turca",
+      "profilePic": "kata",
+      "recentPostPic": "kataoct",
+      "like": false,
+      "likes": "8891"
+    },
+    {
+      "name": "Kyra",
+      "breed": "Schnauzer",
+      "profilePic": "default_profile",
+      "recentPostPic": "kyra",
+      "like": false,
+      "likes": "911"
+    },
+    {
+      "name": "Mia",
+      "breed": "American Wirehair",
+      "profilePic": "default_profile",
+      "recentPostPic": "mia",
+      "like": false,
+      "likes": "311"
+    },
+    {
+      "name": "Chilly",
+      "breed": "French Poodle",
+      "profilePic": "default_profile",
+      "recentPostPic": "chily",
+      "like": false,
+      "likes": "881"
+    },
+    {
+      "name": "Franshua",
+      "breed": "Scottish Fold",
+      "profilePic": "default_profile",
+      "recentPostPic": "munchkin",
+      "like": false,
+      "likes": "981"
+    },
+    {
+      "name": "Genna",
+      "breed": "Blood Hound",
+      "profilePic": "default_profile",
+      "recentPostPic": "genna",
+      "like": false,
+      "likes": "571"
+    },
+    {
+      "name": "Nena",
+      "breed": "Pastor Alemán",
+      "profilePic": "default_profile",
+      "recentPostPic": "nena",
+      "like": false,
+      "likes": "6515"
+    },
+    {
+      "name": "Nory",
+      "breed": "Scottish Fold",
+      "profilePic": "default_profile",
+      "recentPostPic": "scottish_fold",
+      "like": false,
+      "likes": "2315"
+    }
+  ]
+}
