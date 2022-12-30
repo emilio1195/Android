@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">base_de_datos_completa</string>
+    <string name="lbld1">CODIGO</string>
+    <string name="lbld2">NOMBRE</string>
+    <string name="lbld3">GENERO</string>
+    <string name="lbld4">AÑO</string>
+    <string name="lbld5">TELEFONO</string>
+    <string name="lblconsulta1">CODIGO</string>
+    <string name="lblconsulta2">TELEFONO</string>
+
+</resources>
